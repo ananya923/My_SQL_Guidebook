@@ -30,7 +30,8 @@ To get the Northwind database, we can use **DBeaver**, which is a convenient too
 CREATE DATABASE my_northwind; -- or a db name of your choice
 ```
 4. Execute this command to create a new database for Northwind. Now, refresh the postgresql database by right-clicking on it and hitting `Refresh`.
-5. In order to connect to the downloaded Northwind database, open a new connection in the 'Connect' button on the top left. Here, enter the name `my_northwind` instead of postgresql. Remember to also provide the password you set up when installing PostgreSQL on your machine. 
+5. In order to connect to the downloaded Northwind database, open a new connection in the 'Connect' button on the top left. Here, enter the name `my_northwind` instead of postgresql. Remember to also provide the password you set up when installing PostgreSQL on your machine.
+    
 ![](image-26.png)
 - Note: If you realize that you don't have that application, install it first according to the instructions [here](https://www.datacamp.com/tutorial/installing-postgresql-windows-macosx). Then, repeat all of these steps.
 6. You should see the `my_northwind` database appear in the tab on the left called 'Database Navigator'. Make sure it's connected successfully.
@@ -450,6 +451,7 @@ ORDER BY spending_rank;
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
 
 [Top](#sql-guidebook)
+
 
 
 
