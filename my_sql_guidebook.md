@@ -231,7 +231,7 @@ SELECT p.product_id,
 ### Step 3: Advanced Querying
 
 ### Data Transformation examples
-- Case When
+- `CASE WHEN`:
 This is for conditional selection and aggregation: specifying new ways to categorize or represent the data based on some conditions.
 
 ```sql
@@ -449,4 +449,5 @@ ORDER BY spending_rank;
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
 
 [Top](#sql-guidebook)
+
 
