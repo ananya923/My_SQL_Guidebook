@@ -10,6 +10,7 @@ This repository contains a guidebook on SQL querying for the IDS706 major assign
 - `northwind.sql`: The database file for Northwind which has been used to demonstrate queries in the guidebook.
 
 ### Repository Structure
+```markdown
 📁 root-directory/
 ├── README.md
 ├── guidebook_queries.sql
@@ -45,4 +46,5 @@ This repository contains a guidebook on SQL querying for the IDS706 major assign
 ├── Image-7.png
 ├── Image-8.png
 └── Image-9.png
+```
 
