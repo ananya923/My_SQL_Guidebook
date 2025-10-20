@@ -7,4 +7,4 @@ This repository contains a guidebook on SQL querying for the IDS706 major assign
 
 - `guidebook_queries.sql`: This is the SQL script containing the example queries I've shown in my guidebook.
 - `load_data.sql`: An SQL script which I used to connect to the Northwind PostegreSQL database. More details on this setup are included in the Guidebook.
-- `northwind.sql`: The database file for Northwind which has been use to demonstrate queries in the guidebook.
+- `northwind.sql`: The database file for Northwind which has been used to demonstrate queries in the guidebook.
