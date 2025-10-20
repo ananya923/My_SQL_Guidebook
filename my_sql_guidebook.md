@@ -43,7 +43,7 @@ CREATE DATABASE my_northwind; -- or a db name of your choice
 
 ### Step 2: Basic Querying
 
-##### 1. Creating a new table, inserting values, and updating values
+### 1. Creating a new table, inserting values, and updating values
 Let's create a table `demo_sales` as an example. We specify column names and their data types. It's also important to specify if a column can contain null values or not -- this determines if it can be used as a key, among other things for data validation! 
 
 The screenshot following each query shows the results we get.
@@ -90,7 +90,7 @@ WHERE region = 'Unknown';
 ![](image-3.png)
 
 
-##### 2. Viewing data using `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`, `LIMIT`, `HAVING`
+### 2. Viewing data using `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`, `LIMIT`, `HAVING`
 To just all view the data from a table(s), use `SELECT * FROM table_name`.
 
 ```sql
@@ -229,7 +229,7 @@ SELECT p.product_id,
 
 ### Step 3: Advanced Querying
 
-##### Data Transformation examples
+### Data Transformation examples
 - Case When
 This is for conditional selection and aggregation: specifying new ways to categorize or represent the data based on some conditions.
 
@@ -303,7 +303,7 @@ WHERE c.country = 'USA';
 ![](image-17.png)
 
 
-##### Other Important Advanced Commands
+### Other Important Advanced Commands
 - **Window Functions:** These perform calculations across a set of rows related to the current row, without collapsing the result set (unlike `GROUP BY`). So, this is like performing an operation on each row using a loop, rather than running a summary function.
 
 1. `ROW_NUMBER()` assigns a unique number to each row within a partition. `PARTITION_BY()` basically defines a criterion for sub-gropuing the data. We run window functions on these partitions.
@@ -446,4 +446,5 @@ ORDER BY spending_rank;
 - Natural Join: This automatically matches columns with the same name in the two tables being joined. It eliminates the need to specify the join condition explicitly, assuming that column names and datatypes match accurately.
 
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
+
 [Top](#sql-guidebook)
