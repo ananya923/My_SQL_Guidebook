@@ -37,6 +37,7 @@ CREATE DATABASE my_northwind; -- or a db name of your choice
 7.  Now right-click on the `my_northwind` database to open a new query, and copy-paste the content from the `.sql` file your downloaded from the website. Execute this file to populate the new database you just created. The screenshot below shows the script I opened and executed, titled `load_data.sql`.
 ![](image-28.png)
 8. Refresh the database in the Database Navigator. Click on its components and dropdowns to see newly created tables!
+  
 ![](image-29.png)
 ![](image-30.png)
 
@@ -328,7 +329,7 @@ WHERE row_num = 1;
 ```
 ![](image-18.png)
 
-2. `RANK()` gives the same rank to tying rows, skipping numbers after duplicates. This is different from `ROW_nUMBER()` because ranks need not be unique; if two rows tie, they will get the same rank.
+2. `RANK()` gives the same rank to tying rows, skipping numbers after duplicates. This is different from `ROW_NUMBER()` because ranks need not be unique; if two rows tie, they will get the same rank.
 
 ```sql
 -- rank
@@ -448,3 +449,4 @@ ORDER BY spending_rank;
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
 
 [Top](#sql-guidebook)
+
