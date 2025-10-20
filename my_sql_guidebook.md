@@ -251,7 +251,7 @@ LIMIT 10;
 ```
 ![](image-14.png)
 
-- COALESCE: Returns the first non-NULL value in a list of expressions.
+- `COALESCE`: Returns the first non-NULL value in a list of expressions.
 
 ```sql
 SELECT 
@@ -264,7 +264,7 @@ LIMIT 10;
 ```
 ![](image-15.png)
 
-- UNION: Combines the result sets of two or more SELECT statements and removes duplicates.
+- `UNION`: Combines the result sets of two or more SELECT statements and removes duplicates.
 
 ```sql
 SELECT 
@@ -285,7 +285,7 @@ WHERE country = 'Canada';
 ```
 ![](image-16.png)
 
-- EXCEPT: Returns rows from the first query that are not present in the second query.
+- `EXCEPT`: Returns rows from the first query that are not present in the second query.
 
 ```sql
 -- except
@@ -364,7 +364,7 @@ ORDER BY o.customer_id, order_total DESC;
 
 
 - **Common Table Expressions (CTEs)**
-These felp us break down complex queries into smaller chunks. We can also look at these as simple ways to cobine various queries as though they were separate code blocks. While combining, it's common practice to label one chunk of results as an alias table and re-use it in the next chunk of query. The main syntax is `WITH alias_table_name AS`.
+These help us break down complex queries into smaller chunks. We can also look at these as simple ways to cobine various queries as though they were separate code blocks. While combining, it's common practice to label one chunk of results as an alias table and re-use it in the next chunk of query. The main syntax is `WITH alias_table_name AS`.
 
 ```sql
 WITH customer_sales AS (
@@ -385,7 +385,7 @@ LIMIT 5;
 ```
 ![](image-21.png)
 
-Since CTEs are all about combinig query logic, we can use them to combine queries that contain other advanced commands too, such as the Window Functions example below:
+Since CTEs are about combining query logic, we can use them to combine queries that contain other advanced commands too, such as the Window Functions example below:
 
 
 ```sql
@@ -449,5 +449,6 @@ ORDER BY spending_rank;
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
 
 [Top](#sql-guidebook)
+
 
 
