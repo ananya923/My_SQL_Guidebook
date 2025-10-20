@@ -9,8 +9,9 @@ When working with SQL querying, we typically have these things to do:
 1. **Get our database:** Either build tables using `CREATE TABLE` or connect to an existing database in our environment
 2. **Basic queries:** Examine the data, understand the schema, look at summary statistics. If needed, update the data wherever applicable
 3. **Advanced querying based on use cases or questions:** Depending on the ask, spec, or use case we're trying to address, we use advanced SQL commands to analyze the dataset and generate output that can directly answer our questions (simple tables / views which include the metrics we're looking for, as opposed to long, complicated tables)
-4. **Reporting -- typically outside the scope of SQL:** Once we've gotten good answers to our questions about the data using SQL, we can decide how to report them to our stakeholders or what actions to take further. This can involve data visualization, which is typically outside the scope of SQL querying, hence isn't included in this document.
+4. **Things to Remember:** Best practices to avoid errors and improve the quality of our analysis! These are added after the description of queries and should be updated regularly.
 5. **Appendix:** Towards the end of this document is a collection of more detailed and advanced commands for summary statistics and JOINs.
+6. **Reporting -- typically outside the scope of SQL:** Once we've gotten good answers to our questions about the data using SQL, we can decide how to report them to our stakeholders or what actions to take further. This can involve data visualization, which is typically outside the scope of SQL querying, hence isn't included in this document.
 
 
 ### Step 1: Connecting to database
@@ -449,6 +450,7 @@ ORDER BY spending_rank;
 [Back_to_Joins](#joins-an-important-step-towards-advanced-querying)
 
 [Top](#sql-guidebook)
+
 
 
 
